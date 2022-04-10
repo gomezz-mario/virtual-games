@@ -49,282 +49,286 @@
 			</header>
 		</div>
 		
-		<h1 class="text-center mt-5">Formulario de Inscripción</h1>
+		<main>
+			<h1 class="text-center mt-5">Formulario de Inscripción</h1>
 
-		<div class="container mt-5 mb-5">
-			<form class="neds-validation" novalidate>
-				<!-- DATOS DEL EQUIPO -->
-				<div class="row g-2 m-0 mb-3 p-0">
-					<legend class="m-0 p-1">Datos del equipo</legend>
+			<div class="container mt-5 mb-5">
+				<form class="neds-validation" novalidate>
+					<!-- DATOS DEL EQUIPO -->
+					<div class="row g-2 m-0 mb-3 p-0">
+						<legend class="m-0 p-1">Datos del equipo</legend>
+						
+						<div class="col-12 col-lg-6">
+							<label class="visually-hidden" for="nombre-equipo">Nombre</label>
+							<div class="input-group">
+								<span class="input-group-text"><i class="bi bi-people"></i></span>
+								<input type="text" class="form-control" id="nombre-equipo" placeholder="Nombre">
+							</div>
+						</div>
+	
+						<div class="col-12 col-lg-3">
+							<label class="visually-hidden" for="email-equipo">E-mail</label>
+							<div class="input-group">
+								<span class="input-group-text"><i class="bi bi-envelope"></i></span>
+								<input type="text" class="form-control" id="email-equipo" placeholder="E-mail">
+							</div>
+						</div>
+	
+						<div class="col-12 col-lg-3">
+							<label class="visually-hidden" for="">WhatsApp</label>
+							<div class="input-group">
+								<span class="input-group-text"><i class="bi bi-whatsapp"></i></span>
+								<input type="tel" class="form-control" id="wsp-equipo" placeholder="WhatsApp">
+							</div>
+						</div>
+					</div>
 					
-					<div class="col-12 col-lg-6">
-						<label class="visually-hidden" for="nombre-equipo">Nombre</label>
-						<div class="input-group">
-							<span class="input-group-text"><i class="bi bi-people"></i></span>
-							<input type="text" class="form-control" id="nombre-equipo" placeholder="Nombre">
-						</div>
-					</div>
-
-					<div class="col-12 col-lg-3">
-						<label class="visually-hidden" for="email-equipo">E-mail</label>
-						<div class="input-group">
-							<span class="input-group-text"><i class="bi bi-envelope"></i></span>
-							<input type="text" class="form-control" id="email-equipo" placeholder="E-mail">
-						</div>
-					</div>
-
-					<div class="col-12 col-lg-3">
-						<label class="visually-hidden" for="">WhatsApp</label>
-						<div class="input-group">
-							<span class="input-group-text"><i class="bi bi-whatsapp"></i></span>
-							<input type="tel" class="form-control" id="wsp-equipo" placeholder="WhatsApp">
-						</div>
-					</div>
-				</div>
-				
-
-				<!-- DATOS DE LOS PARTICIPANTES -->
-				<div class="container-fluid p-0 m-0 mb-5">
-					<legend class="m-0 p-1">Datos de los participantes</legend>
-					<div class="row g-2 m-0 mb-4">
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="image-profile rounded">
-								<i class="bi bi-person"></i>
+	
+					<!-- DATOS DE LOS PARTICIPANTES -->
+					<div class="container-fluid p-0 m-0 mb-5">
+						<legend class="m-0 p-1">Datos de los participantes</legend>
+						<div class="row g-2 m-0 mb-4">
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="image-profile rounded">
+									<i class="bi bi-person"></i>
+								</div>
 							</div>
-						</div>
-						<div class="col-xl-9 col-lg-8 col-md-6">
-							<div class="row g-2">
-								<div class="col-lg-6">
-									<label class="visually-hidden" for="nombre-p1"></label>
-									<div class="input-group">
-										<div class="input-group-text"><i class="bi bi-person"></i></i></div>
-										<input type="text" class="form-control" id="nombre-p1" placeholder="Nombre">
+							<div class="col-xl-9 col-lg-8 col-md-6">
+								<div class="row g-2">
+									<div class="col-lg-6">
+										<label class="visually-hidden" for="nombre-p1"></label>
+										<div class="input-group">
+											<div class="input-group-text"><i class="bi bi-person"></i></i></div>
+											<input type="text" class="form-control" id="nombre-p1" placeholder="Nombre">
+										</div>
 									</div>
-								</div>
-								<div class="col-lg-6">
-									<label class="visually-hidden" for="ig-p1"></label>
-									<div class="input-group">
-										<div class="input-group-text"><i class="bi bi-instagram"></i></div>
-										  <input type="text" class="form-control" id="ig-p1" placeholder="Instagram">
+									<div class="col-lg-6">
+										<label class="visually-hidden" for="ig-p1"></label>
+										<div class="input-group">
+											<div class="input-group-text"><i class="bi bi-instagram"></i></div>
+											  <input type="text" class="form-control" id="ig-p1" placeholder="Instagram">
+										</div>
 									</div>
-								</div>
-	
-								<div class="col-12 col-lg-6 form-floating">
-									<select class="form-select" aria-label="Selecciona tu centro" id="select-centro-p1">
-										<option selected></option>
-										<option value="1">Paraná</option>
-										<option value="2">Santa Fe</option>
-										<option value="3">Rosario</option>
-										<option value="4">San Francisco</option>
-										<option value="5">Rafaela</option>
-										<option value="6">Junin</option>
-									</select>
-									<label for="select-centro-p1">Selecciona tu centro de pertenencia</label>
-								</div>
-								<div class="col-12 col-lg-6 form-floating">
-									<select class="form-select" aria-label="Selecciona tu centro" id="select-comu-p1">
-										<option selected></option>
-										<option value="1">Ini 1</option>
-										<option value="2">Ini 2</option>
-										<option value="3">Profu 1</option>
-										<option value="4">Profu 2</option>
-									</select>
-									<label for="select-comu-p1">Selecciona tu comunidad</label>
-								</div>
-	
-								<div class="col-12">
-									<label class="visually-hidden" for="desc-p1">text area</label>
-									<textarea class="form-control" placeholder="Breve presentacion" id="desc-p1" style="height: 120px"></textarea>
+		
+									<div class="col-12 col-lg-6 form-floating">
+										<select class="form-select" aria-label="Selecciona tu centro" id="select-centro-p1">
+											<option selected></option>
+											<option value="1">Paraná</option>
+											<option value="2">Santa Fe</option>
+											<option value="3">Rosario</option>
+											<option value="4">San Francisco</option>
+											<option value="5">Rafaela</option>
+											<option value="6">Junin</option>
+										</select>
+										<label for="select-centro-p1">Selecciona tu centro de pertenencia</label>
+									</div>
+									<div class="col-12 col-lg-6 form-floating">
+										<select class="form-select" aria-label="Selecciona tu centro" id="select-comu-p1">
+											<option selected></option>
+											<option value="1">Ini 1</option>
+											<option value="2">Ini 2</option>
+											<option value="3">Profu 1</option>
+											<option value="4">Profu 2</option>
+										</select>
+										<label for="select-comu-p1">Selecciona tu comunidad</label>
+									</div>
+		
+									<div class="col-12">
+										<label class="visually-hidden" for="desc-p1">text area</label>
+										<textarea class="form-control" placeholder="Breve presentacion" id="desc-p1" style="height: 120px"></textarea>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-
-					<div class="row g-2 m-0 mb-4">
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="image-profile rounded">
-								<i class="bi bi-person"></i>
-							</div>
-						</div>
-						<div class="col-xl-9 col-lg-8 col-md-6">
-							<div class="row g-2">
-								<div class="col-lg-6">
-									<label class="visually-hidden" for="nombre-p2"></label>
-									<div class="input-group">
-										<div class="input-group-text"><i class="bi bi-person"></i></i></div>
-										<input type="text" class="form-control" id="nombre-p2" placeholder="Nombre">
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<label class="visually-hidden" for="ig-p2"></label>
-									<div class="input-group">
-										<div class="input-group-text"><i class="bi bi-instagram"></i></div>
-										<input type="text" class="form-control" id="ig-p2" placeholder="Instagram">
-									</div>
-								</div>
 	
-								<div class="col-12 col-lg-6 form-floating">
-									<select class="form-select" aria-label="Selecciona tu centro" id="select-centro-p2">
-										<option selected></option>
-										<option value="1">Paraná</option>
-										<option value="2">Santa Fe</option>
-										<option value="3">Rosario</option>
-										<option value="4">San Francisco</option>
-										<option value="5">Rafaela</option>
-										<option value="6">Junin</option>
-									</select>
-									<label for="select-centro-p2">Selecciona tu centro de pertenencia</label>
-								</div>
-								<div class="col-12 col-lg-6 form-floating">
-									<select class="form-select" aria-label="Selecciona tu centro" id="select-comu-p2">
-										<option selected></option>
-										<option value="1">Ini 1</option>
-										<option value="2">Ini 2</option>
-										<option value="3">Profu 1</option>
-										<option value="4">Profu 2</option>
-									</select>
-									<label for="select-comu-p2">Selecciona tu comunidad</label>
-								</div>
-	
-								<div class="col-12">
-									<label class="visually-hidden" for="desc-p2">text area</label>
-									<textarea class="form-control" placeholder="Breve presentacion" id="desc-p2" style="height: 120px"></textarea>
+						<div class="row g-2 m-0 mb-4">
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="image-profile rounded">
+									<i class="bi bi-person"></i>
 								</div>
 							</div>
-						</div>
-					</div>
-
-					<div class="row g-2 m-0 mb-4">
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="image-profile rounded">
-								<i class="bi bi-person"></i>
-							</div>
-						</div>
-						<div class="col-xl-9 col-lg-8 col-md-6">
-							<div class="row g-2">
-								<div class="col-lg-6">
-									<label class="visually-hidden" for="nombre-p3"></label>
-									<div class="input-group">
-										<div class="input-group-text"><i class="bi bi-person"></i></i></div>
-										<input type="text" class="form-control" id="nombre-p3" placeholder="Nombre">
+							<div class="col-xl-9 col-lg-8 col-md-6">
+								<div class="row g-2">
+									<div class="col-lg-6">
+										<label class="visually-hidden" for="nombre-p2"></label>
+										<div class="input-group">
+											<div class="input-group-text"><i class="bi bi-person"></i></i></div>
+											<input type="text" class="form-control" id="nombre-p2" placeholder="Nombre">
+										</div>
 									</div>
-								</div>
-								<div class="col-lg-6">
-									<label class="visually-hidden" for="ig-p3"></label>
-									<div class="input-group">
-										<div class="input-group-text"><i class="bi bi-instagram"></i></div>
-										<input type="text" class="form-control" id="ig-p3" placeholder="Instagram">
+									<div class="col-lg-6">
+										<label class="visually-hidden" for="ig-p2"></label>
+										<div class="input-group">
+											<div class="input-group-text"><i class="bi bi-instagram"></i></div>
+											<input type="text" class="form-control" id="ig-p2" placeholder="Instagram">
+										</div>
 									</div>
-								</div>
-	
-								<div class="col-12 col-lg-6 form-floating">
-									<select class="form-select" aria-label="Selecciona tu centro" id="select-centro-p3">
-										<option selected></option>
-										<option value="1">Paraná</option>
-										<option value="2">Santa Fe</option>
-										<option value="3">Rosario</option>
-										<option value="4">San Francisco</option>
-										<option value="5">Rafaela</option>
-										<option value="6">Junin</option>
-									</select>
-									<label for="select-centro-p3">Selecciona tu centro de pertenencia</label>
-								</div>
-								<div class="col-12 col-lg-6 form-floating">
-									<select class="form-select" aria-label="Selecciona tu centro" id="select-comu-p3">
-										<option selected></option>
-										<option value="1">Ini 1</option>
-										<option value="2">Ini 2</option>
-										<option value="3">Profu 1</option>
-										<option value="4">Profu 2</option>
-									</select>
-									<label for="select-comu-p3">Selecciona tu comunidad</label>
-								</div>
-	
-								<div class="col-12">
-									<label class="visually-hidden" for="desc-p3">text area</label>
-									<textarea class="form-control" placeholder="Breve presentacion" id="desc-p3" style="height: 120px"></textarea>
+		
+									<div class="col-12 col-lg-6 form-floating">
+										<select class="form-select" aria-label="Selecciona tu centro" id="select-centro-p2">
+											<option selected></option>
+											<option value="1">Paraná</option>
+											<option value="2">Santa Fe</option>
+											<option value="3">Rosario</option>
+											<option value="4">San Francisco</option>
+											<option value="5">Rafaela</option>
+											<option value="6">Junin</option>
+										</select>
+										<label for="select-centro-p2">Selecciona tu centro de pertenencia</label>
+									</div>
+									<div class="col-12 col-lg-6 form-floating">
+										<select class="form-select" aria-label="Selecciona tu centro" id="select-comu-p2">
+											<option selected></option>
+											<option value="1">Ini 1</option>
+											<option value="2">Ini 2</option>
+											<option value="3">Profu 1</option>
+											<option value="4">Profu 2</option>
+										</select>
+										<label for="select-comu-p2">Selecciona tu comunidad</label>
+									</div>
+		
+									<div class="col-12">
+										<label class="visually-hidden" for="desc-p2">text area</label>
+										<textarea class="form-control" placeholder="Breve presentacion" id="desc-p2" style="height: 120px"></textarea>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-
-					<div class="row g-2 m-0 mb-4">
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="image-profile rounded">
-								<i class="bi bi-person"></i>
+	
+						<div class="row g-2 m-0 mb-4">
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="image-profile rounded">
+									<i class="bi bi-person"></i>
+								</div>
+							</div>
+							<div class="col-xl-9 col-lg-8 col-md-6">
+								<div class="row g-2">
+									<div class="col-lg-6">
+										<label class="visually-hidden" for="nombre-p3"></label>
+										<div class="input-group">
+											<div class="input-group-text"><i class="bi bi-person"></i></i></div>
+											<input type="text" class="form-control" id="nombre-p3" placeholder="Nombre">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<label class="visually-hidden" for="ig-p3"></label>
+										<div class="input-group">
+											<div class="input-group-text"><i class="bi bi-instagram"></i></div>
+											<input type="text" class="form-control" id="ig-p3" placeholder="Instagram">
+										</div>
+									</div>
+		
+									<div class="col-12 col-lg-6 form-floating">
+										<select class="form-select" aria-label="Selecciona tu centro" id="select-centro-p3">
+											<option selected></option>
+											<option value="1">Paraná</option>
+											<option value="2">Santa Fe</option>
+											<option value="3">Rosario</option>
+											<option value="4">San Francisco</option>
+											<option value="5">Rafaela</option>
+											<option value="6">Junin</option>
+										</select>
+										<label for="select-centro-p3">Selecciona tu centro de pertenencia</label>
+									</div>
+									<div class="col-12 col-lg-6 form-floating">
+										<select class="form-select" aria-label="Selecciona tu centro" id="select-comu-p3">
+											<option selected></option>
+											<option value="1">Ini 1</option>
+											<option value="2">Ini 2</option>
+											<option value="3">Profu 1</option>
+											<option value="4">Profu 2</option>
+										</select>
+										<label for="select-comu-p3">Selecciona tu comunidad</label>
+									</div>
+		
+									<div class="col-12">
+										<label class="visually-hidden" for="desc-p3">text area</label>
+										<textarea class="form-control" placeholder="Breve presentacion" id="desc-p3" style="height: 120px"></textarea>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="col-xl-9 col-lg-8 col-md-6">
-							<div class="row g-2">
-								<div class="col-lg-6">
-									<label class="visually-hidden" for="nombre-p4"></label>
-									<div class="input-group">
-										<div class="input-group-text"><i class="bi bi-person"></i></i></div>
-										<input type="text" class="form-control" id="nombre-p4" placeholder="Nombre">
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<label class="visually-hidden" for="ig-p4"></label>
-									<div class="input-group">
-										<div class="input-group-text"><i class="bi bi-instagram"></i></div>
-										<input type="text" class="form-control" id="ig-p4" placeholder="Instagram">
-									</div>
-								</div>
 	
-								<div class="col-12 col-lg-6 form-floating">
-									<select class="form-select" aria-label="Selecciona tu centro" id="select-centro-p4">
-										<option selected></option>
-										<option value="1">Paraná</option>
-										<option value="2">Santa Fe</option>
-										<option value="3">Rosario</option>
-										<option value="4">San Francisco</option>
-										<option value="5">Rafaela</option>
-										<option value="6">Junin</option>
-									</select>
-									<label for="select-centro-p4">Selecciona tu centro de pertenencia</label>
+						<div class="row g-2 m-0 mb-4">
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="image-profile rounded">
+									<i class="bi bi-person"></i>
 								</div>
-								<div class="col-12 col-lg-6 form-floating">
-									<select class="form-select" aria-label="Selecciona tu centro" id="select-comu-p4">
-										<option selected></option>
-										<option value="1">Ini 1</option>
-										<option value="2">Ini 2</option>
-										<option value="3">Profu 1</option>
-										<option value="4">Profu 2</option>
-									</select>
-									<label for="select-comu-p4">Selecciona tu comunidad</label>
-								</div>
-	
-								<div class="col-12">
-									<label class="visually-hidden" for="desc-p4">text area</label>
-									<textarea class="form-control" placeholder="Breve presentacion" id="desc-p4" style="height: 120px"></textarea>
+							</div>
+							<div class="col-xl-9 col-lg-8 col-md-6">
+								<div class="row g-2">
+									<div class="col-lg-6">
+										<label class="visually-hidden" for="nombre-p4"></label>
+										<div class="input-group">
+											<div class="input-group-text"><i class="bi bi-person"></i></i></div>
+											<input type="text" class="form-control" id="nombre-p4" placeholder="Nombre">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<label class="visually-hidden" for="ig-p4"></label>
+										<div class="input-group">
+											<div class="input-group-text"><i class="bi bi-instagram"></i></div>
+											<input type="text" class="form-control" id="ig-p4" placeholder="Instagram">
+										</div>
+									</div>
+		
+									<div class="col-12 col-lg-6 form-floating">
+										<select class="form-select" aria-label="Selecciona tu centro" id="select-centro-p4">
+											<option selected></option>
+											<option value="1">Paraná</option>
+											<option value="2">Santa Fe</option>
+											<option value="3">Rosario</option>
+											<option value="4">San Francisco</option>
+											<option value="5">Rafaela</option>
+											<option value="6">Junin</option>
+										</select>
+										<label for="select-centro-p4">Selecciona tu centro de pertenencia</label>
+									</div>
+									<div class="col-12 col-lg-6 form-floating">
+										<select class="form-select" aria-label="Selecciona tu centro" id="select-comu-p4">
+											<option selected></option>
+											<option value="1">Ini 1</option>
+											<option value="2">Ini 2</option>
+											<option value="3">Profu 1</option>
+											<option value="4">Profu 2</option>
+										</select>
+										<label for="select-comu-p4">Selecciona tu comunidad</label>
+									</div>
+		
+									<div class="col-12">
+										<label class="visually-hidden" for="desc-p4">text area</label>
+										<textarea class="form-control" placeholder="Breve presentacion" id="desc-p4" style="height: 120px"></textarea>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				
-				<!-- LEER CONDICIONES -->
-				<div class="row g-2 m-0 mb-5">
-
-				
-					<legend><strong>Importante</strong></legend>
-					<p>Completando este formulario damos por oficializada la inscripción del equipo.</p>
-
-					<div class="form-check">
-						<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">Confirmo que he leido atentamente y he completado todos los datos correctamente.</label>
+					
+					<!-- LEER CONDICIONES -->
+					<div class="row g-2 m-0 mb-5">
+	
+					
+						<legend><strong>Importante</strong></legend>
+						<p>Completando este formulario damos por oficializada la inscripción del equipo.</p>
+	
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+							<label class="form-check-label" for="flexCheckDefault">Confirmo que he leido atentamente y he completado todos los datos correctamente.</label>
+						</div>
 					</div>
-				</div>
-
-				<!-- ENVIAR -->
-				<div class="row g-2 m-0 mt-5">
-					<div class="col-12">
-						<button type="button" class="btn btn-outline-primary">ENVIAR</button>
+	
+					<!-- ENVIAR -->
+					<div class="row g-2 m-0 mt-5">
+						<div class="col-12">
+							<button type="button" class="btn btn-outline-primary">ENVIAR</button>
+						</div>
 					</div>
-				</div>
+	
+				</form>
+			</div>
+		</main>
 
-			</form>
-		</div>
+		
 
 
 		<div class="container-fluid bg-dark fixed-bottom">
