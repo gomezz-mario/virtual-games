@@ -1,0 +1,45 @@
+
+.section-index-novedades__media{
+	width: 100%;
+	height: auto;
+}
+
+
+.index-aside-prox-stream{
+	height: 550px;
+	border-radius: 5px;
+	background-color: rgb(3, 0, 41);
+
+	img{
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		object-position: center;
+	}
+}
+
+.section-index-heroe{
+	height: 400px;
+	position: relative;
+	background-color: rgba($color: #ffbe44, $alpha: 1.0);
+	overflow: hidden;
+
+	.nueva-temporada-text{
+		animation-name: fadeUp;
+		animation-duration: 3s;
+		animation-delay: 10s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: forwards;
+	}
+
+	img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+		z-index: 0;
+	}
+}

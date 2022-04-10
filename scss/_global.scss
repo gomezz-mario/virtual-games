@@ -1,0 +1,27 @@
+/*PALETA DE COLORES*/
+
+
+$gris: #f5f5f5;
+$mostaza: rgb(255, 193, 23);
+$purple: rgb(108, 8, 189);
+.bg-gris{
+	background: $gris;
+}
+
+
+
+/*FONTS*/
+$bangers: 'Bangers', cursive;
+
+.text-bangers{
+	font-family: $bangers;
+}
+
+.text-mostaza{
+	color: $mostaza;
+}
+
+.text-purple{
+	color: $purple;
+}
+
