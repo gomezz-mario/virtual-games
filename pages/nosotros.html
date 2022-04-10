@@ -12,8 +12,10 @@
 	<!-- GOOGLE FONTS -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:wght@200&family=Oswald:wght@200&display=swap" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+	<link rel="shortcut icon" href="../assets/icon.png" type="image/x-icon">
+
 	<!-- BOOTSTRAP 5 -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -23,38 +25,41 @@
 
 	<title>Nosotros</title>
 </head>
-<body>
+<body class="pb-5">
 
-	<header class="sticky-top">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Virtual Games</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item my-2"><a href="../index.html" class="nav-link"><div class="d-flex flex-lg-column align-items-center justify-content-start"><i class="bi bi-house-door ms-1 me-2" style="font-size: 24px;"></i> Inicio </div></a></li>
-						<li class="nav-item my-2"><a href="../pages/juegos.html" class="nav-link"><div class="d-flex flex-lg-column align-items-center justify-content-start"><i class="bi bi-joystick ms-1 me-2" style="font-size: 24px;"></i> Juegos </div></a></li>
-						<li class="nav-item my-2"><a href="#" class="nav-link active"><div class="d-flex flex-lg-column align-items-center justify-content-start"><i class="bi bi-people ms-1 me-2" style="font-size: 24px;"></i> Nosotros </div></a></li>
-						<li class="nav-item my-2"><a href="../pages/galeria.html" class="nav-link"><div class="d-flex flex-lg-column align-items-center justify-content-start"><i class="bi bi-grid-3x3-gap ms-1 me-2" style="font-size: 24px;"></i> Galería </div></a></li>
-						<li class="nav-item my-2"><a href="../pages/inscripcion.html" class="nav-link"><div class="d-flex flex-lg-column align-items-center justify-content-start"><i class="bi bi-ui-checks ms-1 me-2" style="font-size: 24px;"></i> Inscripción </div></a></li>
-					</ul>
+	<div class="container-fluid sticky-top bg-dark">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container">
+					<a class="navbar-brand" href="#">Virtual Games</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item my-2"><a href="../index.html" class="nav-link"><div class="d-flex flex-lg-column align-items-center justify-content-start"><i class="bi bi-house-door ms-1 me-2" style="font-size: 24px;"></i> Inicio </div></a></li>
+							<li class="nav-item my-2"><a href="../pages/juegos.html" class="nav-link"><div class="d-flex flex-lg-column align-items-center justify-content-start"><i class="bi bi-joystick ms-1 me-2" style="font-size: 24px;"></i> Juegos </div></a></li>
+							<li class="nav-item my-2"><a href="#" class="nav-link active"><div class="d-flex flex-lg-column align-items-center justify-content-start"><i class="bi bi-people ms-1 me-2" style="font-size: 24px;"></i> Nosotros </div></a></li>
+							<li class="nav-item my-2"><a href="../pages/galeria.html" class="nav-link"><div class="d-flex flex-lg-column align-items-center justify-content-start"><i class="bi bi-grid-3x3-gap ms-1 me-2" style="font-size: 24px;"></i> Galería </div></a></li>
+							<li class="nav-item my-2"><a href="../pages/inscripcion.html" class="nav-link"><div class="d-flex flex-lg-column align-items-center justify-content-start"><i class="bi bi-ui-checks ms-1 me-2" style="font-size: 24px;"></i> Inscripción </div></a></li>
+						</ul>
+					</div>
 				</div>
-			</div>
-		</nav>
-	</header>
+			</nav>
+		</header>
+	</div>
 
-	<div class="container-fluid pag-nosotros mt-5 mb-5 p-2">
-		<section class="container-fluid section-nosotros-heroe">
+
+	<div class="container-fluid p-0 pag-nosotros mt-5 mb-5">
+		<section class="container-fluid section-nosotros-heroe  bg-gris">
 			<div class="container">
 				<div class="row flex-md-row-reverse align-items-center g-5 py-5">
 					<div class="col-lg-5 col-md-6">
-						<img src="" alt="img-heroe">
+						<img src="../assets/nueva-temporada.jpg" class="rounded" height="300" alt="img-heroe">
 					</div>
 					<div class="col-lg-7 col-md-6">
-						<h1 class="display-5 fw-bold lh-1 mb-3">Lorem, ipsum dolor.</h1>
-						<p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, nobis architecto explicabo esse voluptas sapiente? Reprehenderit unde aliquid fugiat rem?</p>
+						<h1 class="display-5 fw-bold lh-1 mb-3">¡Nueva temporada!</h1>
+						<p class="lead">Nos tomamos un respiro, solo para tomar un nuevo impulso! Estamos de nuevo! ¿Vas a jugar esta temporada?</p>
 					</div>
 				</div>
 			</div>
@@ -63,33 +68,35 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
-						<h3>Lorem, ipsum dolor.</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis porro reprehenderit et nostrum tempora repellat magni, asperiores at dolorum quidem, nisi culpa eligendi! Explicabo!</p>
+						<h3>¿Quiénes somos?</h3>
+						<p>Somos un grupo de jóvenes pertenecientes a distintas comunidades de MPD.<br>Inquietos por no detener los lazos fraternos, durante el tiempo de la pandemia, le fuimos buscando la vuelta para encontrarnos y seguir compartiendo juntos.</p>
 					</div>
 					<div class="col-lg-6">
-						<h3>Lorem, ipsum dolor.</h3>
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ipsa a provident, earum ratione rerum quaerat. Consequuntur vel rem ipsam?</p>
+						<h3>¿Cómo comenzó todo?</h3>
+						<p>Inspirados en el programa televisivo “El último pasajero”, fue surgiendo uno nuevo que tuvo como fin la participación de los hermanos y familias, reencontrarnos, y sobre todo:
+							🤗 Poder divertirnos juntos‼️
+							</p>
 					</div>
 				</div>
 			</div>
 		</section>
 		
-		<section class="container-fluid section-nosotros-testimonios mt-5 mb-5 p-2">
+		<section class="container-fluid section-nosotros-testimonios mb-5 mt-5 p-2">
 			<div class="container">
-				<h3>Lorem ipsum dolor sit.</h3>
+				<h3>Testimonios</h3>
 				<div class="row g-2">
 					<div class="col-lg-4">
 						<div class="post p-3">
 							<div class="post-testimonio">
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi voluptate veniam cumque saepe aperiam mollitia tempora neque fugiat optio quibusdam, modi possimus natus consequatur esse.</p>
+								<p class="fst-italic">"Me anoté con mi equipo y nos divertimos muchísimo. Nos enganchamos desde un principio, nos sentimos muy cómodos! Super recomiendo!"</p>
 							</div>
 							<div class="post-profile">
 								<div class="post-profile-avatar">
-									<img src="../assets/galeria/miniaturas/img-1.jpg" alt="avatar-1" width="72" height="72" class="post-profile-avatar-img">
+									<img src="../assets/galeria/miniaturas/img-5.jpg" alt="avatar-1" width="72" height="72" class="post-profile-avatar-img">
 								</div>
 								<div class="post-profile-nombre">
-									<h2>Mario</h2>
-									<span>Desarrollador</span>
+									<h2>Mariano</h2>
+									<span>Participante</span>
 								</div>
 							</div>
 						</div>
@@ -98,15 +105,18 @@
 					<div class="col-lg-4">
 						<div class="post p-3">
 							<div class="post-testimonio">
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi voluptate veniam cumque saepe aperiam mollitia tempora neque fugiat optio quibusdam, modi possimus natus consequatur esse.</p>
+								<p class="fst-italic">
+									"Soy parte del equipo de Virtual Games y espero con mucha alegría cada programa para conocer a nuevas hermosas personas. Para compartir con cada uno de 
+									ustedes. Disfruto mucho estando de este lado, creo que siempre me llevo mucho más de lo que doy"
+								</p>
 							</div>
 							<div class="post-profile">
 								<div class="post-profile-avatar">
-									<img src="../assets/galeria/miniaturas/img-1.jpg" alt="avatar-1" width="72" height="72" class="post-profile-avatar-img">
+									<img src="../assets/img-carousel-equipo/profesional-1.jpg" alt="avatar-1" width="72" height="72" class="post-profile-avatar-img">
 								</div>
 								<div class="post-profile-nombre">
-									<h2>Mario</h2>
-									<span>Desarrollador</span>
+									<h2>Agustin</h2>
+									<span>Community Manager</span>
 								</div>
 							</div>
 						</div>
@@ -115,15 +125,15 @@
 					<div class="col-lg-4">
 						<div class="post p-3">
 							<div class="post-testimonio">
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi voluptate veniam cumque saepe aperiam mollitia tempora neque fugiat optio quibusdam, modi possimus natus consequatur esse.</p>
+								<p class="fst-italic">"Me encantó la experiencia! A pesar de que no entendía mucho de las nuevas tecnologías la pude pasar muy bien. Los chicos me tuvieron toda la paciencia, unos genios! Espero que sigan con las mismas ganas. Lo quieroo!"</p>
 							</div>
 							<div class="post-profile">
 								<div class="post-profile-avatar">
-									<img src="../assets/galeria/miniaturas/img-1.jpg" alt="avatar-1" width="72" height="72" class="post-profile-avatar-img">
+									<img src="https://www.trecebits.com/wp-content/uploads/2019/02/Persona-1-445x445.jpg" alt="avatar-1" width="72" height="72" class="post-profile-avatar-img">
 								</div>
 								<div class="post-profile-nombre">
-									<h2>Mario</h2>
-									<span>Desarrollador</span>
+									<h2>Susana</h2>
+									<span>Participante</span>
 								</div>
 							</div>
 						</div>
@@ -136,41 +146,47 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<h3>Lorem, ipsum dolor.</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum est voluptatibus, temporibus impedit perspiciatis beatae! Corrupti sapiente accusantium sunt iste, quidem modi commodi aut eius ducimus blanditiis. Quis, sit fuga inventore culpa vitae quas exercitationem praesentium, sequi similique qui, iusto hic repellat officiis veniam porro? Expedita dolores ratione nihil, placeat ad, distinctio sunt nesciunt minima natus, quod inventore accusantium blanditiis.</p>
+						<h3>Te presentamos nuestro equipo</h3>
+						<p>
+							Ellos están siempre en el detrás de escena haciendo su trabajo en silencio. Preparan cada programa, animan cada stream para que el protagonista seas vos!
+							<br>
+							Cada uno pone lo que sabe hacer, lo que puede. Con todas las ganas y el entusiasmo. Nos encanta hacer, lo que hacemos!
+							<br>
+							Vos también podes sumarte a nuestro equipo! No dudes!
+						</p>
 					</div>
 					<div class="col-12">
 						<!--CARROUSEL-->
 						<div id="carouselEquipo" class="carousel slide" data-bs-ride="carousel">
 							<div class="carousel-indicators">
-							  	<button type="button" data-bs-target="#carouselEquipo" data-bs-slide-to="0" class="active button-indicator" aria-current="true" aria-label="Slide 1" style="background-image: url(../assets/galeria/miniaturas/img-1.jpg);"></button>
-							  	<button type="button" data-bs-target="#carouselEquipo" data-bs-slide-to="1" class="button-indicator" aria-label="Slide 2" style="background-image: url(../assets/galeria/miniaturas/img-2.jpg);"></button>
-							  	<button type="button" data-bs-target="#carouselEquipo" data-bs-slide-to="2" class="button-indicator" aria-label="Slide 3"  style="background-image: url(../assets/galeria/miniaturas/img-3.jpg);"></button>
+							  	<button type="button" data-bs-target="#carouselEquipo" data-bs-slide-to="0" class="active button-indicator" aria-current="true" aria-label="Slide 1" style="background-image: url(../assets/img-carousel-equipo/profesional-1.jpg);"></button>
+							  	<button type="button" data-bs-target="#carouselEquipo" data-bs-slide-to="1" class="button-indicator" aria-label="Slide 2" style="background-image: url(../assets/img-carousel-equipo/profesional-2.jpg);"></button>
+							  	<button type="button" data-bs-target="#carouselEquipo" data-bs-slide-to="2" class="button-indicator" aria-label="Slide 3"  style="background-image: url(../assets/img-carousel-equipo/profesional-3.jpg);"></button>
 							</div>
 							<div class="carousel-inner">
 							  	<div class="carousel-item active">
 									<div class="carousel-item-overlay"></div>
-									<img src="../assets/galeria/miniaturas/img-1.jpg" class="d-block w-100" height="300px" alt="...">
+									<img src="../assets/img-carousel-equipo/profesional-1.jpg" class="d-block w-100" height="300px" alt="perfil-agustin">
       								<div class="carousel-caption d-none d-md-block">
-        								<h5>Mario</h5>
-        								<p>Desarrollo Web</p>
+        								<h5>Agustin</h5>
+        								<p>Community Manager</p>
       								</div>
 							  	</div>
 							  	<div class="carousel-item">
 									<div class="carousel-item-overlay"></div>
-									<img src="../assets/galeria/miniaturas/img-2.jpg" class="d-block w-100" height="300px" alt="...">
+									<img src="../assets/img-carousel-equipo/profesional-2.jpg" class="d-block w-100" height="300px" alt="perfil-mario">
       								<div class="carousel-caption d-none d-md-block">
-        								<h5>Martina</h5>
-        								<p>Escenografía</p>
+        								<h5>Mario</h5>
+        								<p>Desarrollo Web</p>
       								</div>
 								</div>
 							  
 							  	<div class="carousel-item">
 									<div class="carousel-item-overlay"></div>
-									<img src="../assets/galeria/miniaturas/img-3.jpg" class="d-block w-100" height="300px" alt="...">
+									<img src="../assets/img-carousel-equipo/profesional-3.jpg" class="d-block w-100" height="300px" alt="perfil-martina">
       								<div class="carousel-caption d-none d-md-block">
-        								<h5>Agustin</h5>
-        								<p>Animador</p>
+        								<h5>Martina</h5>
+        								<p>Escenografía</p>
       								</div>
 							  	</div>
 							</div>
@@ -193,7 +209,22 @@
 
 
 
-
+	<div class="container-fluid bg-dark fixed-bottom">
+		<div class="container">
+			<footer class="d-flex flex-wrap justify-content-between align-items-center p-2 my-2">
+				<div class="col-md-4 d-flex align-items-center">
+					<h4 class="text-bangers text-mostaza me-3 mb-0">VIRTUAL <span class="text-purple">GAMES</span></h4>
+					<span class="text-muted">&copy; 2022 Company, Inc</span>
+				</div>
+				<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+					<li class="nav-item"><a href=""><i class="bi bi-facebook"></i></a></li>
+					<li class="nav-item"><a href=""><i class="bi bi-instagram"></i></a></li>
+					<li class="nav-item"><a href=""><i class="bi bi-youtube"></i></a></li>
+					<li class="nav-item"><a href=""><i class="bi bi-twitch"></i></a></li>
+				</ul>
+			</footer>
+		</div>
+	</div>
 
 
 
